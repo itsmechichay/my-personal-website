@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="images/favicon.png?v=1" type="image/x-icon">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <title>Niña Montecer | Personal Website</title>
+</head>
+<body>
+    <div class="container">
+    
+    <div class='cursor' id="cursor"></div>
+    <div id="particles-js"></div>
+
+    <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <a href="#home" class="nav-link"><img src="images/favicon.png" alt="logo" class="logo"></a>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About Me</a>
+                        <div class="circle"></div>
+                        <ul class="submenu">
+                            <li class="submenu-list"><a href="#academic-background">Academic Background</a></li>
+                            <li class="submenu-list"><a href="#certifications">Certifications</a></li>
+                            <li class="submenu-list"><a href="#skills">Skills</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                        <ul class="submenu">
+                            <li class="submenu-list-p"><a href="#capstone-projects">Capstone Projects</a></li>
+                            <li class="submenu-list-p"><a href="#mini-projects">Mini Cybersecurity Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/ni%C3%B1a-jorene-montecer-082774284/" target="_blank" ><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
+            <a href="#home" target="_blank"><img src="images/website.png" class="social-media" alt="web-logo"></a>
+        </div>
+
+        <div class="contact">
+            <a href="Mailto:montecer.ninajorene@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
+            <a href="Tel:09478544565"><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
+        </div>   
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span class="featured-fname">NiñaJorene</span>Montecer
+                </div>
+                <div class="featured-name">
+                    <p>I am <span class="typedText"></span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Join me on this journey of innovation to shape the digital future.</p>
+                </div>
+                <div class="featured-text-btn">
+                    <a href="#about"><button class="home-btn">Hello World!</button></a>
+                </div>                     
+            </div>
+        </section>
+        
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+            <div class="top-header">
+                <h1>Welcome to My World</h1>
+            </div>
+            <div class="about-me-row">
+                <div class="img-container">
+                    <div class="shape"></div>
+                    <img src="images/me.png" class="row-image">
+                </div>
+                <div class="about-text-container">
+                    <div class="about-text-info">
+                        <h2>Hello there!</h2> <br>
+                        <p>I am an <strong>Information Technology</strong> graduate who is eager and driven for continuous learning 
+                            in the tech industry with a keen interest in information security. I possess a foundation in the field 
+                            and am eager to learn and contribute to a team environment. My ability to collaborate with a team, 
+                            to organize and facilitate programs and activities, to communicate concepts effectively, and approach 
+                            challenges with a strategic perspective sets me apart and have contributed significantly in enhancing 
+                            my interpersonal skills. I am particularly interested in opportunities that allow me to contribute to 
+                            innovative projects, where my skills and dedication can make a tangible impact.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-text-btn">
+                    <a href="#contact" style="text-decoration: none;" class="btn">Let's get in touch!</a>
+                    <a href="files/MONTECER,NiñaJorene_Resume.pdf" target="_blank" class="btn">Download My Resume<i class="uil uil-file-alt"></i></a>
+                </div> 
+            </div>
+            <div class="about-row">
+                <div class="col" id="academic-background">
+                    <div class="about-info">
+                        <h3><u>ACADEMIC BACKGROUND</u></h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2020-2024</div>
+                                <div class="timeline-content">
+                                    <div class="about-title"><strong>BS INFORMATION TECHNOLOGY</strong></div>
+                                    <div class="row">De La Salle Lipa</div>
+                                    <div class="row"><strong><em>Cum Laude</em></strong></div>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2018 - 2020</div>
+                                <div class="timeline-content">
+                                    <div class="about-title"><strong>Science Technology Engineering and Mathematics [STEM]</strong></div>
+                                    <div class="row"><em>Senior High School</em></div>
+                                    <div class="row">La Consolacion College Tanauan</div>
+                                    <div class="row"><strong><em>Academic Achiever</em></strong></div>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2014 - 2018</div>
+                                <div class="timeline-content">
+                                    <div class="row"><em>Junior High School</em></div>
+                                    <div class="row">La Consolacion College Tanauan</div>
+                                    <div class="row"><strong><em>Academic Achiever</em></strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" id="certifications">
+                    <div class="cert-info">
+                        <h3><u> CERTIFICATIONS</u></h3>
+                        <div class="cert-row">
+                            <div class="cert-column">
+                                <div class="cert-item">
+                                    <div class="cert-item-img">
+                                        <img src="images/fortinet.jpg" alt="fortinet" class="cert-img">
+                                    </div>
+                                </div>
+                                <div class="cert-title">
+                                    <a href="https://www.credly.com/badges/d61e51ec-8eb7-4612-9ed4-d6a01f2e1550/linked_in_profile" 
+                                    target="_blank" class="tooltip" style="text-decoration: none;">
+                                        <b class="row">Fortinet Certified Fundamentals Cybersecurity</b>
+                                        <span class="tooltiptext">Click to view credential</span>
+                                    </a>    
+                                </div>
+                                <!-- <div class="row">Fortinet</div> -->
+                            </div>
+                            <div class="cert-date">
+                                <span>APRIL 2024</span>
+                            </div>
+                        </div>
+                        <div class="cert-row">
+                            <div class="cert-column">
+                                <div class="cert-item">
+                                    <div class="cert-item-img">
+                                        <img src="images/cisco.png" alt="fortinet" class="cert-img">
+                                    </div>
+                                </div>
+                                <div class="cert-title">
+                                    <a href="https://www.credly.com/badges/3ecbd060-44c3-4576-a382-3299257611d9/linked_in_profile" 
+                                    target="_blank" class="tooltip" style="text-decoration: none;">
+                                        <b class="row">Introduction to Cybersecurity</b>
+                                        <span class="tooltiptext">Click to view credential</span>
+                                    </a>    
+                                </div>
+                                <!-- <div class="row">Cisco</div> -->
+                            </div>
+                            <div class="cert-date">
+                                <span>AUGUST 2023</span>
+                            </div>
+                        </div>
+                        <div class="cert-row">
+                            <div class="cert-column">
+                                <div class="cert-item">
+                                    <div class="cert-item-img">
+                                        <img src="images/fitacademy.png" alt="fortinet" class="cert-img">
+                                    </div>
+                                </div>
+                                <div class="cert-title">
+                                    <a href="https://certificate.fitacademy.ph/validate/index.php?cer_id=8a438154e925d20e00cccd1a616573291782a40ec21c8e082e1875d63b224ce0" 
+                                    target="_blank" class="tooltip" style="text-decoration: none;">
+                                        <b class="row">SAP Business One Training</b>
+                                        <span class="tooltiptext">Click to view credential</span>
+                                    </a>    
+                                </div>
+                                <!-- <div class="row">FIT Academy</div> -->
+                            </div>
+                            <div class="cert-date">
+                                <span>DECEMBER 2022</span>
+                            </div>
+                        </div>
+                        <div class="cert-row">
+                            <div class="cert-column">
+                                <div class="cert-item">
+                                    <div class="cert-item-img">
+                                        <img src="images/comptia.png" alt="fortinet" class="cert-img">
+                                    </div>
+                                </div>
+                                <div class="cert-title">
+                                    <a href="https://www.credly.com/badges/22f65a21-f624-47f0-b5bd-d21b2ec65413/linked_in_profile" 
+                                    target="_blank" class="tooltip" style="text-decoration: none;">
+                                        <b class="row">CompTIA IT Fundamentals (ITF+)</b>
+                                        <span class="tooltiptext">Click to view credential</span>
+                                    </a>    
+                                </div>
+                                <!-- <div class="row">CompTIA</div> -->
+                            </div>
+                            <div class="cert-date">
+                                <span>JULY 2022</span>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+            <section class="section" id="skills">
+                <h3><u>SKILLS</u></h3>
+                <div class="skills-wrapper" >
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>C++</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Database Management</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>MySQL</span>
+                            <span>MS Access</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Robotic Process Automation</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>UiPath Studio</span>
+                        </div>
+                    </div> 
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Enterprise Resource Planning</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>SAP S/4HANA</span>
+                            <span>SAP Business One</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Ethical Hacking</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Nmap</span>
+                            <span>Wireshark</span>
+                            <span>Metasploit</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Documentation and Design</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>MS Office</span>
+                            <span>Google Workspace</span>
+                            <span>Canva</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Front End Development</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Vue.js</span>
+                            <span>Quasar Framework</span>
+                            <span>JSON Server</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Software Development Tools</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>VSCode</span>
+                            <span>GitLab</span>
+                            <span>GitHub</span>
+                            <span>Node.js</span>
+                            <span>Cypress</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section> 
+
+       <!-- -------------- PROJECTS ---------------- -->
+       <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+                <section class="section" id="capstone-projects">
+                    <h2><u> CASPTONE PROJECTS</u></h2>
+                    <div class="project-container">
+                      <div class="project-box" id="cp">
+                          <i class="uil uil-file-lock-alt"></i>
+                          <h3>IT SECURITY PLAN FOR THE LOCAL GOVERNMENT OF OF SAN ANTONIO, QUEZON USING THE DEFENSE-IN-APPROACHIN-DEPTH APPROACH</h3>
+                          <h5>Group Final Capstone Project</h5> 
+                          <label>JANUARY 2023 - JANUARY 2024</label>
+                          <p class="hidden-paragraph">An IT Security Plan to establish a defense mechanism that safeguards the confidentiality, integrity, 
+                              and availability of critical information within the Local Government of San Antonio, Quezon by following the 
+                              defense-in-depth framework whichaims to create multiple layers of protection, mitigating potential risks and 
+                              ensuring a resilient cybersecurity posture.</p>
+                      </div>
+                      <div class="project-box" id="cp">
+                          <i class="uil uil-search-alt"></i>
+                          <h3>VULNERABILITIES IDENTIFICATION AND SECURITY SOLUTIONS FOR THE OFFICE OF THE MALVAR PUBLIC MARKET ADMINISTRATOR</h3>
+                          <h5>Group Capstone Project for Information Security Elective</h5> 
+                          <label>JULY 2023</label>
+                          <p class="hidden-paragraph">Real-life application of Ethical Hacking methods using Nmap, Enum4linux, and Credential Harvester Attack through Social Engineering Kit.</p>
+                      </div>
+                      <div class="project-box" id="cp">
+                          <i class="uil uil-user-circle"></i>
+                          <h3>MIKE: MY INTELLIGENT KNOWLEDGEABLE EXPLORER</h3>
+                          <h5>Group Capstone Project for Technology Entrepreneurship</h5> 
+                          <label>JULY 2023</label>
+                          <p class="hidden-paragraph">A Tech Startup Business Plan: A travel recommendation and planning app that is set to reshape 
+                              the way people explore and plan adventures which integrates all aspects of travel planning, offering users a seamless 
+                              and personalized experience by providing tailored suggestions, real-time pricing information, and automated budget 
+                              calculations, empowering travelers to make informed decisions and optimize their journeys.</p>
+                      </div>
+                      <div class="project-box" id="cp">
+                          <i class="uil uil-channel"></i>
+                          <h3>ANIMO HUT NETWORK DESIGN - FLOOR 31</h3>
+                          <h5>Capstone Project for IT Networking 1</h5> 
+                          <label>NOVEMBER 2022</label>
+                          <p class="hidden-paragraph">Proposal of a network design for a specific floor in the Animo Hut project including design materials 
+                              and costing, the design topology done with Cisco Packet Tracer, and the testing and results.</p>
+                      </div>
+                      <div class="project-box" id="cp">
+                          <i class="uil uil-transaction"></i>
+                          <h3>ARLINGTON INDUSTRIES’ PROPOSED AUTOMATED PAYROLL SYSTEM</h3>
+                          <h5>Group Capstone Project for Information Systems Analysis and Design</h5> 
+                          <label>JULY 2022</label>
+                          <p class="hidden-paragraph">A case study to propose for an information system directed towards the creation of an automated payroll system 
+                              to automate the payroll process and transform the current state of the company from doing things manually to making processes easier 
+                              through automation. This project proposed a user interface design done through Adobe XD.</p>
+                      </div>
+                    </div>
+                </section>
+
+                <section class="section" id="mini-projects">
+                    <h2><u> MINI CYBERSECURITY PROJECTS</u></h2>
+                    <div class="project-container">
+                        <div class="project-box" id="mp">
+                            <div class="project-grid">
+                                <a href="https://github.com/itsmechichay/Cybersecurity-Home-Lab-Project" target="_blank" title="Click to view project!">
+                                <div class="img">
+                                    <img src="images/mp1.png" alt="Cybersecurity Home Lab Project thumbnail">
+                                    <h3><strong>Cybersecurity Home Lab Project</strong></h3>
+                                    <div class="project-desc">Cybersecurity Home Lab Network Setup and Tool Utilization</div>
+                                </div>
+                                <div class="project-text">
+                                    <h3><strong>Cybersecurity Home Lab Project</strong></h3>
+                                    <p>This project aims to establish a foundational cybersecurity home lab with network setup and tool 
+                                        utilization using virtual machines with Linux operating systems allowing for simple experimentation 
+                                        with network security concepts, vulnerability assessment, and penetration testing.</p>
+                                </div></a>
+                            </div>
+                        </div>  
+                        <div class="project-box" id="mp">
+                            <div class="project-grid">
+                                <a href="https://github.com/itsmechichay/Penetration-Test-with-Metasploit" target="_blank" title="Click to view project!">
+                                <div class="img">
+                                    <img src="images/mp2.png" alt="Penetration Testing using Metasploit thumbnail">
+                                    <h3><strong>Penetration Testing with Metasploit</strong></h3>
+                                    <div class="project-desc">Penetration Testing using Metasploit</div>
+                                </div>
+                                <div class="project-text">
+                                    <h3><strong>Penetration Test with Metasploit</strong></h3>
+                                    <p>This project is a simple penetration testing exercise conducted on a Metasploitable 2 virtual 
+                                        machine using Kali Linux. Metasploitable 2 is an intentionally vulnerable virtual machine with 
+                                        Ubuntu Linux distribution that is designed for testing common vulnerabilities and provides a 
+                                        controlled environment for these testings. This hands-on approach will provide valuable insights 
+                                        into real-world security threats and inform the development of effective security measures.</p>
+                                </div></a>
+                            </div>
+                        </div>  
+                    </div>
+                </section>
+            </div>
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Let's get in touch!</h1>
+            <span>Contact me here</span>
+          </div>
+          <div class="contact-list">
+            <div class="contact-button">
+                <button class="btn" onclick="CopyMe('+63 947 854 4565')" title="Click to copy"><i class="uil uil-phone"></i>&ensp;+63 947 854 4565</button>
+                <button class="btn" onclick="CopyMe('montecer.ninajorene@gmail.com')" title="Click to copy"><i class="uil uil-envelope"> </i>&ensp;montecer.ninajorene@gmail.com</button>
+                <button class="btn" onclick="CopyMe('https://www.linkedin.com/in/ni%C3%B1a-jorene-montecer-082774284/')" title="Click to copy"><i class="uil uil-linkedin"></i>&ensp;www.linkedin.com/in/niña-jorene-montecer-082774284</button>
+            </div>
+          </div>
+       </section>
+
+    </main>
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p1>Niña Jorene</p1> <p2>Montecer</p2>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://www.facebook.com/ninamontecer/" target="_blank" class="icon"><i class="uil uil-facebook"></i></a>
+            <a href="https://www.instagram.com/ninimontecer/" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+            <a href="mailto:montecer.ninajorene@gmail.com" class="icon"><i class="uil uil-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/ni%C3%B1a-jorene-montecer-082774284/" target="_blank" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+            <a href="" class="icon"><i class="uil uil-globe"></i></a>
+        </div>
+        
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Niña Jorene Montecer</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
+    <script src="particles.js"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+</body>
+</html>
